@@ -128,6 +128,41 @@ em {
 
 .sign-up {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-card {
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 25px 75px;
+    flex: 1;
+    margin: 75px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.card-text {
+    flex: 1;
+}
+
+.sign-up-flair {
+    color: #F9FAF8;
+}
+
+h2.sign-up-flair {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.sign-up-flair {
+    font-size: 10px;
+}
+
+button.sign-up-flair {
+    border: 1px solid white;
 }
 
 .quote-cred {
