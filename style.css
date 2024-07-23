@@ -58,6 +58,7 @@ a {
 
 .sign-up-image {
     flex: 1;
+    margin: 20px;
 }
 
 h1.hero-text {
@@ -90,11 +91,8 @@ button {
     color: white;
     flex: 1;
     min-height: 200px;
+    max-width: 400px;
 }
-
-
-
-
 
 .info {
     flex: 1;
@@ -102,13 +100,47 @@ button {
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    padding: 25px;
 }
 
-.info-cards {
+#info-header {
+   font-size: 36px;  
+   font-weight: 1000;
+   color: #1F2937;
+   margin: 0 0 25px;
+}
+
+#info-cards {
+    flex: 1;
     display: flex;
-
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
 }
+
+.infocard {
+    flex: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 25px 75px;
+}
+
+.subtext {
+    text-align: center;
+    max-width: 150px;
+    margin: 10px;
+}
+
+.small-image {
+    color: gray;
+    flex: 1 0 150px;
+    min-width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
 
 .quote {
     background-color: #E5E7EB;
@@ -118,6 +150,10 @@ button {
     align-items: center; 
     justify-content: center;
     padding: 100px 200px;
+}
+
+.quote-cred {
+    align-self: flex-end;
 }
 
 em {
@@ -136,8 +172,8 @@ em {
 .sign-up-card {
     background-color: #3882F6;
     border-radius: 6px;
-    padding: 25px 75px;
-    flex: 1;
+    padding: 35px 75px;
+    flex: 0 1 800px;
     margin: 75px 100px;
     display: flex;
     justify-content: center;
@@ -154,11 +190,11 @@ em {
 
 h2.sign-up-flair {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 p.sign-up-flair {
-    font-size: 10px;
+    font-size: 16px;
 }
 
 button.sign-up-flair {
@@ -175,6 +211,6 @@ button.sign-up-flair {
     align-items: center; 
     font-size: 18px;
     color: #E5E7EB;
-    padding: 20px;
+    padding: 40px;
     flex: 0 1 100;
 }
