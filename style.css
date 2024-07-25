@@ -99,9 +99,9 @@ button {
 .info {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center; 
     flex-direction: column;
+    justify-content: center;
+    align-items: stretch; 
     padding: 25px;
 }
 
@@ -110,6 +110,8 @@ button {
    font-weight: 1000;
    color: #1F2937;
    margin: 0 0 25px;
+   flex: 1;
+   text-align: center;
 }
 
 #info-cards {
@@ -117,7 +119,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: space-evenly;
+    align-items: space-between;
+    max-width: 1000px;
 }
 
 .infocard {
@@ -126,7 +129,7 @@ button {
     justify-content: center; 
     align-items: center;
     flex-direction: column;
-    margin: 25px 25px 75px;
+    margin: 0 0 50px;
 }
 
 .subtext {
@@ -174,7 +177,7 @@ em {
 .sign-up-card {
     background-color: #3882F6;
     border-radius: 6px;
-    padding: 35px 75px;
+    padding: 50px 75px;
     flex: 0 1 800px;
     margin: 75px 100px;
     display: flex;
@@ -200,7 +203,7 @@ p.sign-up-flair {
 }
 
 button.sign-up-flair {
-    border: 1px solid white;
+    border: 2px solid white;
     flex: 1;
 }
 
