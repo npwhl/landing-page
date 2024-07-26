@@ -15,7 +15,7 @@ body {
     flex: 1;
 }
 
-#header-footer-bg {
+#header-footer {
     background-color: #1F2937;
     padding: 0 100px;
 }
@@ -102,14 +102,14 @@ button {
     max-width: 400px;
 }
 
-.information {
+.info-section {
     display: flex; 
     justify-content: center;
     align-items: center;
     flex: 1;
 }
 
-.info {
+.info-content {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -156,8 +156,7 @@ button {
     border-radius: 16px;
 }
 
-
-.quote {
+.quote-section {
     background-color: #E5E7EB;
     flex: 1;
     display: flex; 
@@ -177,7 +176,7 @@ em {
     color: #1F2937;
 }
 
-.sign-up {
+.sign-up-section {
     flex: 1;
     display: flex;
     justify-content: center;
